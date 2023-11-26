@@ -14,19 +14,21 @@ Test_Data
 Target Variable: Overall_Experience (1 represents ‘satisfied’, and 0 represents ‘not satisfied’)
 
 The training set can be used to build your machine-learning model. The training set has labels for the target column - Overall_Experience.
-
 The testing set should be used to see how well your model performs on unseen data. For the test set, it is expected to predict the ‘Overall_Experience’ level for each participant.
 
-Data Dictionary:
+### Techniques used:
+1) Random Forest
+2) Extreme Gradient boost
 
+### Data Dictionary:
 All the data is self-explanatory. The survey levels are explained in the Data Dictionary file.
 
-# Submission File Format:
+### Submission File Format:
 Submit a CSV file with exactly 35,602 entries plus a header row. The file should have exactly two columns
 
-ID
-Overall_Experience (contains 0 & 1 values, 1 represents ‘Satisfied’, and 0 represents ‘Not Satisfied’)
-Evaluation Criteria:
+- ID
+- Overall_Experience (contains 0 & 1 values, 1 represents ‘Satisfied’, and 0 represents ‘Not Satisfied’)
 
+### Evaluation Criteria:
 Accuracy Score: The evaluation metric is simply the percentage of predictions made by the model that turned out to be correct. This is also called the accuracy of the model. It will be calculated as the total number of correct predictions (True Positives + True Negatives) divided by the total number of observations in the dataset.
 

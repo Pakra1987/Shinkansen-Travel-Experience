@@ -19,6 +19,8 @@ The testing set should be used to see how well your model performs on unseen dat
 ### Techniques used:
 1) Random Forest
 2) Extreme Gradient boost
+3) Grid search
+4) MICE algorithm for missing data imputation
 
 ### Data Dictionary:
 All the data is self-explanatory. The survey levels are explained in the Data Dictionary file.
